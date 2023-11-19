@@ -1,0 +1,68 @@
+********************
+* KEY Git commands *
+********************
+
+1. Set up standard config
+* git config --global user.name "......"
+* git config --global user.email "......"
+* git config --list (list all config)
+
+2. Initialize git in project folder 
+* mkdir myProject
+* cd myProject
+* git init
+[Note: main is the default branch at this stage.]
+
+3. Create file in myProject and staged
+* git add [file]
+* git add .
+* git add --all or git add -A 
+
+4. To show status of git in the local 
+* git status [-s]
+
+5. To unstage :
+* git rm --cached [file] 
+
+6. To commit:
+* git commit -m "....."
+* git commit -a -m "....."  
+[skipping stage]
+
+7. To check log
+* git log
+
+8. To create a new branch
+* git branch [branch-name]
+* git branch (to list all existing branches)
+
+9. To switch branch
+* git checkout [branch-name]
+[After that, this is like switch env]
+* git add ....
+* git commit -m "....."
+
+10. To merge branch to main (e.g.)
+* git checkout main
+* git merge [branch-name]
+* git branch -d [branch-name] (to delete branch)
+
+********************
+* Work with Github *
+********************
+
+1. Create a repository in Github
+   [and copy the repository url details]
+
+2. Push from local
+* git remote add origin https://github.com/username/repository.git
+* git push --set-upstream origin main
+
+3. [Optional] Change codes directly in Github
+
+4. Get all change history
+* git fetch origin
+
+
+
+
