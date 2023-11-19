@@ -62,6 +62,9 @@
 
 4. Get all change history
 * git fetch origin
+* git status (show recent changes)
+* git log origin/main (indicate what files have been changed)
+* git diff origin/main
 
 
 
