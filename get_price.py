@@ -11,7 +11,7 @@ r = requests.get(qString)
 print(r.text)
 """
 
-VA = ["BTC", "ETH", "USDT", "AVAX", "ATOM", "DOC", "AAVE"]
+VA = ["BTC", "ETH", "USDT", "AVAX", "ATOM", "DOC", "AAVE", "LINK"]
 
 for va in VA:
     
