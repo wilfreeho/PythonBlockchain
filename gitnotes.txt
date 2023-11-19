@@ -65,7 +65,27 @@
 * git status (show recent changes)
 * git log origin/main (indicate what files have been changed)
 * git diff origin/main
+* git merge origin/main
+* git status (should show a clean working tree)
 
+5. Use Pull instead
+* git pull origin = fetch + merge
 
+6. Create new branch in Github
+* Github : new branch
+* edit some files
+* use "Preview changes" to see the changes
+* commit changes
+
+7. Pull the changes into local
+* git pull
+* git status (to show the working tree status)
+* git branch (confirm there should be main)
+* git branch -a (to see remote branches)
+
+8. Switch to work on the branch
+* git checkout [branch]
+* git pull (just to ensure local is up-to-date)
+* git branch (show that we are working on the right branch)
 
 
